@@ -1,0 +1,137 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-size: 45px;
+    opacity: 150%;
+    font-weight: bolder;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    font-size: 35px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
+
+body{
+    background-image: url(../img/fondo1.jpg);
+}
+
+.menu{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: right;
+    
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px;
+    position: relative;
+}
+
+.menu ul li:hover{
+    font-weight: bold;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.subMenu{
+    padding: 5px;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.menu ul li:hover > ul{
+    display: block;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.subMenu{
+    background-color: rgb(255, 251, 238);
+
+}
+
+.info{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    opacity: 300%;
+    color: white;
+}
+
+.piePagina ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.logo{
+    margin: 50px 50px 50px 780px ;    
+}
+
+.formulario{
+    padding: 10px;
+    color: white;
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
